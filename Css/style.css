@@ -1,0 +1,103 @@
+body{
+margin:0; 
+color:black;
+text-align: justify;
+}
+
+body > div {
+    overflow: hidden;
+    padding: 1px;
+  }
+
+#Sect-Indice{
+    background-color: gray;
+} 
+
+#sect-Montagna
+{
+    background-color: #4F6D5D;
+}
+#sect-Vernazza{
+    background-color: #2C6E91;
+}
+
+#sect-Cascate{
+    background-color: hsl(156, 37%, 38%);
+}
+img{
+    border-radius: 1000px;
+    border-width: 5px;
+    border-color:black;
+    border-style: solid;
+    width: 180px;
+    height:180px;
+    opacity: 1;
+
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+.duecolonne {
+  columns: 2;
+  column-gap: 20px;
+  column-rule-width: 1px;
+  column-rule-style: solid;
+  column-rule-color: rgb(235, 194, 15);
+  margin-bottom: 20px;
+}
+.duecolonne > p {
+  break-inside: avoid;
+  margin: 10px;
+}
+.centrato {
+  text-align: center;
+}
+.centrato > table {
+  margin-left: auto;
+  margin-right: auto;
+}
+a,
+a:hover {
+  text-decoration: none;
+  color: black(13, 1, 1)  ;
+}
+a:visited {
+  color: inherit;
+}
+.Percorsi {
+  border-radius: 50px;
+  width: 800px;
+  background-color: white;
+  color: black;
+}
+.Percorsi > thead > tr {
+  font-size: 20px;
+}
+.Percorsi tr {
+  height: 50px;
+}
+.Percorsi th,
+.Percorsi td {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#sect-sommario{
+    background-color: gray;
+}
+
+#sect-falò{
+    background-color: burlywood;
+}
+#sect-Escursioni{
+    background-color: #4F6D5D;
+}
+#sect-Fauna{
+    background-color: #105917;
+}
+#sect-Esperienze{
+    background-color: aquamarine;
+}

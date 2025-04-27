@@ -1,7 +1,15 @@
+
+@font-face {
+  font-family: "daminga";
+  src: url(../Fonts/daminga/DamingaBold_PERSONAL_USE_ONLY.otf);
+}
+
 body{
 margin:0; 
+font-family: daminga;
 color:black;
 text-align: justify;
+
 }
 
 body > div {
@@ -48,11 +56,39 @@ img{
     width: 200px;
     height:200px;
     opacity: 0.7;
+    
+}
+
+.Inizio{
+  border-radius: 100px;
+  
+  border-width: 2px;
+  
+  border-style: solid;
+  
+  border-color: black;
+  
+  width: 150px;
+
+  height:150px;
+
+  opacity: 0.8;
+  
+  transition-duration: 200ms;
+  
+  transition-property: width;
+  
+  transition-timing-function:linear;
+}
+
+.Inizio:hover{
+  opacity: initial;
+   height:170px;
+   width: 170px;
 }
 
 img:hover{
 opacity:initial;
-cursor: dick;
   
 }
 
@@ -63,6 +99,7 @@ cursor: dick;
   border-style: solid;
   width: 210px;
   height:210px;
+  
 }
 
 #Sect-Immagini {
@@ -225,10 +262,15 @@ color:black;
     border-width: 3px;
     border-color: black;
     border-style: solid;
-    width: 20px;
-    height:20px;
-    opacity: 10;
+    width: 35px;
+    height:35px;
+    opacity: 0.5;
+    
 }
+
+
+
+
 
 #sect-storia{
   background-color: #A9A9A9;

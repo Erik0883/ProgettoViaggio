@@ -1,0 +1,164 @@
+body{
+margin:0; 
+color:black;
+text-align: justify;
+}
+
+body > div {
+    overflow: hidden;
+    padding: 1px;
+  }
+
+#Sect-Indice{
+    background-color: gray;
+} 
+
+#sect-Montagna
+{
+    background-color: #4F6D5D;
+}
+#sect-Vernazza{
+    background-color: #2C6E91;
+}
+
+#sect-Cascate{
+    background-color: hsl(156, 37%, 38%);
+}
+img{
+    border-radius: 30px;
+    border-width: 5px;
+    border-color:black;
+    border-style: solid;
+    width: 200px;
+    height:200px;
+    opacity: 10;
+
+
+}
+
+h1,
+h2
+ {
+  text-align: center;
+}
+.duecolonne {
+  columns: 2;
+  column-gap: 20px;
+  column-rule-width: 1px;
+  column-rule-style: solid;
+  column-rule-color: rgb(235, 194, 15);
+  margin-bottom: 20px;
+}
+.duecolonne > p {
+  break-inside: avoid;
+  margin: 10px;
+}
+.centrato {
+  text-align: center;
+}
+.centrato > table {
+  margin-left: auto;
+  margin-right: auto;
+}
+a,
+a:hover {
+  text-decoration: none;
+  color: black(13, 1, 1)  ;
+}
+a:visited {
+  color: inherit;
+}
+.Percorsi {
+  border-radius: 5px;
+  width: 700px;
+  background-color: lightgoldenrodyellow;
+  color: black;
+  border-collapse: collapse;
+}
+.Percorsi > thead > tr {
+  font-size: 20px;
+}
+.Percorsi tr {
+  height: 50px;
+}
+.Percorsi th,
+.Percorsi td {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.Percorsi tbody > tr:hover{
+background-color: yellowgreen;
+color:black;
+
+}
+
+
+#sect-sommario{
+    background-color: gray;
+}
+
+#sect-falò{
+    background-color: burlywood;
+}
+#sect-Escursioni{
+    background-color: #4F6D5D;
+}
+#sect-Fauna{
+    background-color: #105917;
+}
+#sect-Esperienze{
+    background-color: aquamarine;
+}
+
+.centrato {
+  text-align: center;
+}
+.centrato > table {
+  margin-left: auto;
+  margin-right: auto;
+}
+a,
+a:hover {
+  text-decoration: none;
+  color: black(13, 1, 1)  ;
+}
+a:visited {
+  color: inherit;
+}
+.Borghi {
+  border-radius: 5px;
+  width: 700px;
+  background-color:#E8D8C3;
+  color: black;
+  border-collapse: collapse;
+}
+.Borghi > thead > tr {
+  font-size: 20px;
+}
+.Borghi tr {
+  height: 50px;
+}
+.Borghi th,
+.Borghi td {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.Borghi tbody > tr:hover{
+background-color: #F4D35E;
+color:black;
+
+}
+
+#Sect-Intro{
+  background-color: #2E8BC0;
+}
+
+#Sect-Territorio{
+  background-color: #A9D6E5;
+}
+#sect-borghi{
+  background-color: #88B04B;
+}
+#Sect-Attrazioni{
+  background-color: #F28C8C;
+}
